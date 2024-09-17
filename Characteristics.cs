@@ -11,6 +11,7 @@ namespace Heracross
 
         public List<string> at = new List<string>() { "Flamethrower", "Ice Beam", "Fire Punch", "Double Team" };
         public List<string> d = new List<string>() { "Protection from stones" };
+        public List<string> spec = new List<string>() { "Flight" };
 
         public double Hp(double hp)
         {
@@ -34,6 +35,12 @@ namespace Heracross
         {
             List<string> spec_def = d;
             return spec_def;
+        }
+
+        public List<string> SpecAbil()
+        {
+            List<string> spec_abil = spec;
+            return spec_abil;
         }
         public double Speed(double speed)
         {

@@ -20,6 +20,7 @@ namespace Heracross
             Console.WriteLine("Defense: " + characteristics.Defense(16 - 5 / 2)); // Защита
             Console.WriteLine("Special attack: " + string.Join(", ", characteristics.Spec_At())); // Специальная атака
             Console.WriteLine("Special defense: " + string.Join(", ", characteristics.SpecDef())); // Специальная защита
+            Console.WriteLine("Special abilities: " + string.Join(", ", characteristics.SpecAbil())); // Специальные способности
             Console.WriteLine("Speed: " + characteristics.Speed(5)); // Скорость
         }
     }
