@@ -10,7 +10,7 @@ namespace Heracross
     {
 
         public List<string> at = new List<string>() { "Flamethrower", "Ice Beam", "Fire Punch", "Double Team" };
-        public List<string> d = new List<string>() { "None"};
+        public List<string> d = new List<string>() { "Protection from stones" };
 
         public double Hp(double hp)
         {
